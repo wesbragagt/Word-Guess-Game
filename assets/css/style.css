@@ -1,0 +1,40 @@
+body {
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    background: #000000;
+    color: green
+}
+
+header {
+    position:relative;
+    top: 5em;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.game-box {
+    position: relative;
+    top: 5em;
+    width: 75%;
+    margin: 0 auto;
+    padding: 2em;
+    line-height: 2em;
+}
+
+.border {
+    border: solid 2px green;
+}
+
+.outline {
+    border: dashed 2px yellow;
+    width: 10em;
+    margin:0 auto;
+}
+
+.yellow {
+text-transform: uppercase;
+color: yellow;
+letter-spacing: 10px;
+}
+

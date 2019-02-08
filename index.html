@@ -1,35 +1,42 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Word Guess Game</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">  
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Word Guess Game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
 </head>
+
 <body>
 
-<header>
-	<h1>Word Guess Game</h1>
-</header>
+	<header>
+		<h1 class="border">Word Guess Game</h1>
+	</header>
 
-<div class="game-box">
-	
-	<span>
-		<strong>Key Pressed:</strong><p id="usertext"></p>
-	</span>
+	<div class="game-box border">
 
-	<span>
-		<strong>Tries:</strong><p id="letter-guess">how many times you've guessed so far</p>
-	</span>
+		<span>
+			<strong>Key Pressed:</strong>
+			<p class="inline-block" id="usertext"></p>
+		</span>
 
-	<span>
-		<strong>Word:</strong>
-		<p id="wordtext">current word</p>
-	</span>
-	
-</div>
+		<span>
+			<strong>Tries:</strong>
+			<p id="letter-guess">how many times you've guessed so far</p>
+		</span>
+
+		<span>
+			<strong>Word:</strong>
+			<div class="outline">
+				<p class="yellow" id="wordtext" style="visibility: hidden;">current word</p>
+			</div>
+		</span>
+
+	</div>
 
 
 
@@ -37,6 +44,7 @@
 
 
 
-<script src="assets/javascript/game.js"></script>
+	<script src="assets/javascript/game.js"></script>
 </body>
+
 </html>
